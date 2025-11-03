@@ -29,6 +29,7 @@ En el modulo de motor se usa ```div_m``` para obtener ```clk_1``` y así mover e
 </p>
 
 El contador del modulo del motor corresponde a un M, el cual guarda los 8 posibles estados de la secuencia del motor. 
+Código obtenido de : https://www.youtube.com/watch?v=wyz6QGYnmfk
 
 **tb_motor**: 
 <p align="center">
@@ -38,7 +39,8 @@ El contador del modulo del motor corresponde a un M, el cual guarda los 8 posibl
 </p>
 
 ### timer  (temporizador.v)
-Código obtenido de: https://www.youtube.com/watch?v=wyz6QGYnmfk
+Código obtenido de: https://www.youtube.com/watch?v=FcbuS9IIWgY&list=PLMonDzz7J8Sk8RD3lap1iBZI3leIPk7wF&index=16
+
 
 ### timer_reg (temporizador_regr.v)
 Adaptación de timer para crear un temporizador regresivo que tenga en cuenta un número de porciones y una opción de reset ```rst_n```. El número de porciones determina cuantas veces se reinicia el temporizador. El tiempo del temporizador se debe configurar en ```//Parámetros configurables del contador regresivo```. 
