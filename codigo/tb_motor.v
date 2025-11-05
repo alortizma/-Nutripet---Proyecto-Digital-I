@@ -20,13 +20,13 @@ always #(CLOCK_PERIOD/2) clk = ~clk;
 
 initial begin
     clk = 0;
-    #2000;
+    #5000;
 end
 
 initial begin
     $dumpfile("tb_motor.vcd");
     $dumpvars(-1, uut);
-    #2000 $finish;
+    #5000 $finish;
 end
 
 endmodule
